@@ -1,92 +1,132 @@
-# 🛒 Super Store Sales Dashboard (Power BI)
+# 📊 Super Store Sales Dashboard — Power BI
+
+![Dashboard Preview](dashboard_screenshot.png)
+
+---
 
 ## 📌 Project Overview
-This project is an **interactive sales analytics dashboard** built using **Power BI Desktop**.  
-It analyzes a Super Store dataset to provide insights into **sales performance, profit trends, customer segments, and shipping behavior** across different regions, states, and cities.
 
-The dashboard is designed to support **data-driven decision making** through clear and interactive visualizations.
+The **Super Store Sales Dashboard** is an interactive business intelligence report built using **Power BI Desktop**. It visualizes retail sales data from a fictional superstore to help business stakeholders quickly understand sales performance, profitability, and customer behavior across different regions, categories, and time periods.
+
+This project is designed to demonstrate core data visualization and analytical skills, making it ideal for portfolios, internship applications, and analytics learning.
 
 ---
 
 ## 🎯 Objectives
-- Analyze overall **sales, profit, and quantity trends**
-- Identify **top-performing regions, cities, and product sub-categories**
-- Understand **customer segments and shipping modes**
-- Present insights using **interactive and user-friendly dashboards**
+
+- Analyze overall sales, profit, and quantity trends across the business
+- Identify top-performing and underperforming product categories and sub-categories
+- Understand regional and city-level sales distribution
+- Evaluate the impact of discounts on profitability
+- Compare performance across customer segments and shipping modes
 
 ---
 
-## 📊 Key Metrics
-- **Total Sales:** 2.30M  
-- **Total Profit:** 286.24K  
-- **Total Quantity Sold:** 38K  
+## 📈 Key Metrics
+
+| Metric | Value |
+|---|---|
+| 💰 Total Sales | **$2.30M** |
+| 📦 Total Quantity Sold | **38K** units |
+| 🟢 Total Profit | **$286.24K** |
+
+> *Values reflect the full dataset with no filters applied.*
 
 ---
 
-## 📈 Dashboard Visualizations
-- Sales by Sub-Category  
-- Sales by City  
-- Profit by Region  
-- Profit by Sub-Category  
-- Discount Distribution by Quantity  
-- Sales and Quantity by Ship Mode  
-- Sales by Customer Segment  
-- Sales by Product Category  
+## 📊 Visualizations Used
+
+| # | Chart Type | What It Shows |
+|---|---|---|
+| 1 | **Bar Chart** | Sum of Sales by Sub-Category |
+| 2 | **Bar Chart** | Sum of Profit by Sub-Category |
+| 3 | **Area / Line Chart** | Sum of Sales by City |
+| 4 | **Column Chart** | Sum of Profit by Region |
+| 5 | **Donut Chart** | Sum of Sales & Quantity by Ship Mode |
+| 6 | **Donut Chart** | Sum of Sales by Customer Segment |
+| 7 | **Donut Chart** | Sum of Sales by Product Category |
+| 8 | **Donut Chart** | Sum of Sales by Ship Mode |
+| 9 | **Pie Chart** | Sum of Discount by Quantity |
+| 10 | **KPI Cards** | Total Sales, Total Profit, Total Quantity |
 
 ---
 
 ## 🎛️ Interactive Features
-- Slicers for:
-  - Region
-  - State
-  - City
-- Dynamic visuals that update based on user selections
-- Easy comparison across categories, segments, and regions
+
+The dashboard includes the following slicers that allow users to filter all visuals simultaneously:
+
+- **Region** — Filter data by West, East, South, or Central
+- **State** — Drill down to a specific state
+- **City** — Focus on individual city-level performance
+
+> All charts and KPI cards update dynamically when a filter is applied.
 
 ---
 
-## 🧠 Key Insights
-- The **West region** contributes the highest profit
-- **Phones and Chairs** are the top-selling sub-categories
-- **Standard Class** is the most used shipping mode
-- The **Consumer segment** generates the highest sales
-- Higher discounts do not always lead to higher profits
+## 💡 Key Business Insights
+
+1. **Phones and Chairs** are the top-selling sub-categories by revenue, while **Copiers** generate the highest profit despite lower sales volume.
+2. **Standard Class** shipping dominates with **~58%** of total sales, indicating customer preference for cost-effective delivery.
+3. The **West region** leads in profit contribution, followed closely by the **East region**.
+4. The **Consumer segment** accounts for approximately **50%** of total sales, making it the most valuable customer group.
+5. **Technology** and **Furniture** are the top two categories by sales, while **Office Supplies** lags behind.
+6. High discount rates are associated with lower profit margins, visible in the Discount by Quantity breakdown.
+7. A few major cities like **New York** and **Los Angeles** contribute disproportionately to total sales.
 
 ---
 
 ## 🛠️ Tools & Technologies
-- Power BI Desktop  
-- DAX for calculations  
-- Data modeling and transformation  
-- Interactive data visualization  
+
+| Tool | Purpose |
+|---|---|
+| **Power BI Desktop** | Dashboard creation and data visualization |
+| **Microsoft Excel / CSV** | Source data format |
+| **DAX (Data Analysis Expressions)** | Calculated measures and KPIs |
+| **Power Query** | Data transformation and cleaning |
 
 ---
 
-## 📁 Repository Structure
-├── Super_Store_Sales_Dashboard.pbix
-├── dashboard_screenshot.png
-└── README.md
+## 🗂️ Repository Structure
 
-
----
-
-## 🔗 How to Use
-1. Download the `.pbix` file
-2. Open it using **Power BI Desktop**
-3. Use slicers to explore different insights
+```
+super-store-sales-dashboard/
+│
+├── Superstore_Analysis.pbix           # Main Power BI report file
+├── dashboard_screenshot.png           # Preview image of the dashboard
+├── LICENCE
+└── README.md                          # Project documentation
+```
 
 ---
 
-## 📌 Use Case
-This dashboard is suitable for:
-- Data Analyst Internships
-- Business Intelligence projects
-- Sales and marketing analysis
-- Learning data visualization with Power BI
+## 🚀 How to Use This Project
+
+1. **Install Power BI Desktop** (free) from [Microsoft's official website](https://powerbi.microsoft.com/desktop/)
+
+2. **Open the `.pbix` file** in Power BI Desktop
+
+3. **Explore the dashboard** — use the Region, State, and City slicers to filter the data interactively
+
+4. *(Optional)* To refresh with new data, replace the source file in **Power Query Editor** under `Home → Transform Data`
 
 ---
 
-## 🙌 Author
-**Het Shah**  
-Data Analytics | Data Visualization | Power BI
+## 💼 Use Cases
+
+- ✅ **Internship Portfolio** — Demonstrate Power BI and data visualization skills to recruiters
+- ✅ **Entry-Level Data Analyst Roles** — Showcase ability to derive business insights from raw data
+- ✅ **Analytics Learning** — Practice building dashboards, writing DAX measures, and using Power Query
+- ✅ **Business Reporting** — Adapt the template for real-world retail or sales reporting needs
+- ✅ **Academic Projects** — Submit as a data analytics or business intelligence course project
+
 ---
+
+## 👤 Author
+
+**Het Shah**
+📧 het586030@gmail.com
+🔗 [LinkedIn](https://linkedin.com/in/hetshah2k5)
+
+---
+
+> ⭐ *If you found this project helpful, consider giving it a star on GitHub!*
